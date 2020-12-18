@@ -56,6 +56,7 @@ nav ul {
   user-select: none;
   padding-right: 1%;
   padding-left: 1%;
+  text-decoration: none;
 }
 nav li {
   border: 3px solid rgb(38, 173, 245);
@@ -69,14 +70,13 @@ nav li {
   color: rgb(255, 255, 255);
   font-size: 150%;
   user-select: none;
+  text-decoration: none;
 }
 nav li:hover {
   background-color: rgb(143, 61, 231);
   user-select: none;
 }
-* {
-  text-decoration: none;
-}
+
 
 aside {
   grid-area: aside;
@@ -91,7 +91,7 @@ section {
   border-radius: 10px;
   padding: 20px;
   font-size: 130%;
-  border: 2px solid cyan;
+  border: 5px solid cyan;
   font-weight: normal;
 }
 footer {
@@ -128,4 +128,198 @@ footer {
 }
 footer {
   text-align: center;
+}
+.box{
+  margin-top: 2%;
+  width: auto;
+  height: 100px;
+  border: 2px solid black;
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: 90px auto;
+  grid-area: 
+  "newsimg newstext"
+  ;
+}
+.newsimg{
+  background-image: url(twitch.jpg);
+  background-size: 100%;
+  border-right: 4px solid white ;
+  border-radius: 2px;
+}
+.newstext{
+  padding-left: 5%;
+  padding-top: 1%;
+}
+.Newsinf{
+  text-align: center;
+  margin-top: -1%;
+}
+.mainbox{
+  grid-template-columns: 200px 200px 200px;
+  grid-template-areas: 
+  "video video2 video3"
+  ;
+  
+}
+.vbox{
+  position: absolute;
+  width: 200px;
+  height: 230px;
+  border-radius: 5px;
+  border: 3px solid black;
+  grid-area: video;
+
+}
+.vbox1{
+  width: 200px;
+  height: 230px;
+  border-radius: 5px;
+  border: 3px solid black;
+ 
+  grid-area: video2;
+  margin-left: 250px;
+  
+  
+}
+img{
+  size: 100%;
+  width: 200px;
+  height: 150px;
+  border-bottom: 3px solid cyan;
+}
+.vboxt1{
+  text-align: center;
+  padding-top: 20px;
+  font-weight: bold;
+  
+}
+.vbox2{
+  width: 200px;
+  height: 230px;
+  border-radius: 5px;
+  border: 3px solid black;
+  margin:5px;
+  grid-area: video3;
+  margin-left: 500px;
+}
+
+
+.boxq{
+  margin-top: 2%;
+  width: auto;
+  height: 150px;
+  
+  display: grid;
+  grid-template-columns: 100px auto;
+  grid-template-areas:  
+  "newsimg newstext"
+  ;}
+  .newsimgq{
+    background-image: url(bloodtrail-emote.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+.newstextq{
+  padding-left: 10%;
+}
+.boxw{
+  margin-top: 2%;
+  width: auto;
+  height: 150px;
+  
+  display: grid;
+  grid-template-columns: 100px auto;
+  grid-template-areas:  
+  "newsimg newstext"
+  ;}
+  .newsimgw{
+    background-image: url(monks.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+.newstextw{
+  padding-left: 10%;
+}
+.boxe{
+  margin-top: 2%;
+  width: auto;
+  height: 150px;
+  display: grid;
+  grid-template-columns: 100px auto;
+  grid-template-areas:  
+  "newsimg newstext"
+}
+.newsimge{
+  background-image: url(114133_residentsleeper-emote-png.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.newstexte{
+padding-left: 10%;
+}
+.boxr{
+  margin-top: 2%;
+  width: auto;
+  height: 150px;
+  display: grid;
+  grid-template-columns: 100px auto;
+  grid-template-areas:  
+  "newsimg newstext"
+}
+.newsimgr{
+  background-image: url(BoYRMteyQBOo9hgM2TO0.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.newstextr{
+padding-left: 10%;
+}
+.boxd{
+  margin-top: 2%;
+  width: auto;
+  height: 150px;
+  display: grid;
+  grid-template-columns: 100px auto;
+  grid-template-areas:  
+  "newsimg newstext"
+}
+.newsimgd{
+  background-image: url(bettert.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+.newstextd{
+  padding-left: 10%;
+}
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+    color: rgb(61, 5, 61);
+}
+.newsimgc{
+  background-image: url(PNGPIX-COM-Star-Vector-PNG-Transparent-Image.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: cover;
+}
+.empty{
+  height: 50px;
+}
+.sda{
+  margin-top: 50px;
+}
+.p12{
+  font-weight: bolder;
+  text-decoration: underline;
+  text-align: center;
+  margin-top: 20px;
 }
